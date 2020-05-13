@@ -1,0 +1,48 @@
+{
+    "name": "botdigit/laravel-taxonomies",
+    "description": "Simple, nestable Terms & Taxonomies (similar to WordPress) for Laravel ^ 7.0",
+    "homepage" : "https://github.com/ucanbehack/laravel-taxonomies",
+    "license": "MIT",
+    "keywords": [
+        "taxonomies",
+        "terms",
+        "categories",
+        "nestable",
+        "eloquent",
+        "model",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name"     : "Tarun",
+            "homepage" : "https://botdigit.com",
+            "role"     : "developer"
+        }
+    ],
+    "require": {
+        "php"                 : "^7.0",
+        "illuminate/support"  : "^7.0",
+        "illuminate/database" : "^7.0",
+        "cviebrock/eloquent-sluggable" : "^7.0"
+    },
+    "require-dev": {
+        "laravel/framework" : "^7.0",
+        "mockery/mockery" : "0.9.*",
+        "phpunit/phpunit" : "^6.0",
+        "doctrine/dbal"   : "2.5.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Botdigit\\Taxonomies\\" : "src/"
+        }
+    },
+    "extra": {
+        "branch-alias" : {
+            "dev-master" : "0.0.x-dev"
+        }
+    },
+    "support" : {
+        "source" : "https://github.com/ucanbehack/laravel-taxonomies",
+        "issues" : "https://github.com/ucanbehack/laravel-taxonomies/issues"
+    }
+}
