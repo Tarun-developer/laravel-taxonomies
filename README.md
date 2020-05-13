@@ -133,6 +133,11 @@ First fo all, this snippet will create three entries in your `terms` table, if t
 Then it will create three entries in your `taxonomies` table, relating the terms with the given taxonomy "category".
 
 And last it will relate the entries from your `taxonomies` table with your model (in this example a "Post" model) in your `pivot` table.
+`
+use Botdigit\Taxonomies\Models\Taxable;
+use Botdigit\Taxonomies\Models\Taxonomy;
+use Botdigit\Taxonomies\Models\Term;`
+
 
 **Why three tables?**
 
