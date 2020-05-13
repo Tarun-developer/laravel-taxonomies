@@ -138,6 +138,8 @@ use Botdigit\Taxonomies\Models\Taxable;
 use Botdigit\Taxonomies\Models\Taxonomy;
 use Botdigit\Taxonomies\Models\Term;`
 
+ $terms = Taxonomy::where('taxonomy', 'tags')->with('term')->get();
+
 
 **Why three tables?**
 
